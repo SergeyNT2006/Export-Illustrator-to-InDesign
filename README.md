@@ -4,6 +4,34 @@ CEP extension for Adobe Illustrator and Adobe InDesign. It exports text and sele
 
 This extension is not a fully automatic Illustrator-to-InDesign converter. It is a controlled transfer tool: the user decides which text and graphics should move to InDesign.
 
+## Usage Strategies
+
+You can use the extension in three different ways, depending on the job.
+
+### 1. Split Spread Artboards Only
+
+Use `DESpreaded` when an Illustrator document contains two-page spreads made as single wide artboards.
+
+The extension can split those wide spread artboards into separate left and right page artboards directly in Illustrator. This can be useful even if you do not plan to export anything to InDesign.
+
+### 2. Export Graphics Only
+
+Use the graphics export workflow when you want to create an InDesign document with correctly placed linked graphics, but without transferring text.
+
+This creates a clean InDesign layout structure based on the Illustrator artboards and places only the selected artwork where it belongs. It is useful when the final text will be recreated, rewritten, or placed manually in InDesign.
+
+### 3. Export Text And Graphics
+
+Use the full workflow when you want to transfer both editable text and selected graphics from Illustrator to InDesign.
+
+The extension exports Illustrator text frames to XML, exports selected artwork as linked PSD/EPS files, and then builds a new InDesign document from that data.
+
+## Why Graphics Export Is Semi-Automatic
+
+Many tools that open or convert PDF files in InDesign try to import graphics automatically. In real production files this often creates a serious cleanup problem: background elements, masks, decorative shapes, fragments, and other unwanted objects become imported InDesign content. The result is usually not a clean layout, but a document full of graphic "garbage" that must be deleted manually.
+
+This extension takes a different approach. Graphics are exported semi-automatically: the user selects only the artwork that should become linked graphics in InDesign. This keeps the resulting InDesign document cleaner, more predictable, and easier to edit.
+
 ## Download Demo
 
 Demo ZXP package:
