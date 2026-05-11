@@ -1,0 +1,11 @@
+/native/
+/binary/
+
+# Keep paid builds local. Only the demo ZXP is intended for the public repository.
+/zxp/*
+!/zxp/Illustrator_to_InDesign_demo.zxp
+
+# Local OS/editor files
+Thumbs.db
+.DS_Store
+.vscode/
