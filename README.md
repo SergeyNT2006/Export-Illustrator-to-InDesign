@@ -16,9 +16,15 @@ The demo version limits Illustrator export to 10 text frames and 10 linked graph
 
 ## Full Version
 
-The full version removes the demo export limits.
+The full version removes the demo export limits. **$100 USD** - pay with PayPal.
 
-Buy via PayPal: coming soon.
+| Demo | Full Version |
+|------|--------------|
+| Up to 10 exported text frames | No text export limit |
+| Up to 10 exported linked graphics | No linked graphics export limit |
+| `DESpreaded` fully available | `DESpreaded` fully available |
+
+**[Buy Full Version - $100](https://sergeynt2006.github.io/Export-Illustrator-to-InDesign/purchase.html)** - PayPal payment. Download link sent by email within 24 hours.
 
 ## Main Features
 
