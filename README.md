@@ -4,6 +4,14 @@ CEP extension for Adobe Illustrator and Adobe InDesign. It exports text and sele
 
 This extension is not a fully automatic Illustrator-to-InDesign converter. It is a controlled transfer tool: the user decides which text and graphics should move to InDesign.
 
+## Demo Video
+
+Watch the full workflow demonstration on YouTube:
+
+[Export Illustrator to InDesign - full workflow demo](https://youtu.be/BqgwwWCKz1w)
+
+The video shows how the extension splits spread artboards, exports Illustrator text and selected graphics, and creates a clean InDesign document with correctly placed linked graphics.
+
 ## Usage Strategies
 
 You can use the extension in three different ways, depending on the job.
